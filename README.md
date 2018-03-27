@@ -59,6 +59,8 @@ Now run `yarn start` to start the bot.
 ### Updating
 Minor updates can be acquired by running `//exec git pull` in Discord to run the `git pull` command on your computer. Some updates, however, change too much to be updated like that, and instead you must do the following commands in your terminal/command prompt:
 
+Note: You can make yourself a `//update` command by typing `//shortcuts add update exec -s git pull`
+
 ```bash
 # Go to the SharpBot folder
 cd path/to/SharpBot
